@@ -93,3 +93,9 @@ set shiftwidth=2
 set expandtab
 
 let g:syntastic_html_tidy_exec = 'tidy5'
+
+" Monster
+" Use neocomplete.vim
+let g:neocomplete#sources#omni#input_patterns = {
+\   "ruby" : '[^. *\t]\.\w*\|\h\w*::',
+\}
