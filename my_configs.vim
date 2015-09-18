@@ -92,3 +92,4 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+let g:syntastic_html_tidy_exec = 'tidy5'
