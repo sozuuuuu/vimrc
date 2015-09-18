@@ -93,3 +93,6 @@ set shiftwidth=2
 set expandtab
 
 let g:syntastic_html_tidy_exec = 'tidy5'
+
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
+set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
