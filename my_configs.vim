@@ -85,6 +85,7 @@ colorscheme pyte
 set background=light
 let g:NERDTreeWinPos = "left"
 set clipboard=unnamed
+set number
 " indentation
 set autoindent
 set tabstop=2
