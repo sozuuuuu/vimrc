@@ -1,0 +1,35 @@
+[submodule "sources_non_forked/neocomplete"]
+	path = sources_non_forked/neocomplete
+	url = https://github.com/Shougo/neocomplete.vim
+
+[submodule "sources_non_forked/vim-cssfmt"]
+	path = sources_non_forked/vim-cssfmt
+	url = https://github.com/kewah/vim-cssfmt
+
+[submodule "sources_non_forked/gruvbox"]
+	path = sources_non_forked/gruvbox
+	url = https://github.com/morhetz/gruvbox
+
+[submodule "sources_non_forked/vim-gitgutter"]
+	path = sources_non_forked/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+
+[submodule "sources_non_forked/vim-indent-guides"]
+	path = sources_non_forked/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides
+
+[submodule "sources_non_forked/vim-javascript"]
+	path = sources_non_forked/vim-javascript
+	url = https://github.com/pangloss/vim-javascript
+
+[submodule "sources_non_forked/vim-mustache-handlebars"]
+	path = sources_non_forked/vim-mustache-handlebars
+	url = https://github.com/mustache/vim-mustache-handlebars
+
+[submodule "sources_non_forked/vim-ruby"]
+	path = sources_non_forked/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby
+
+[submodule "sources_non_forked/vim-slim"]
+	path = sources_non_forked/vim-slim
+	url = https://github.com/slim-template/vim-slim
