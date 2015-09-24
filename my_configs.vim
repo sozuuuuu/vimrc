@@ -96,3 +96,4 @@ let g:syntastic_html_tidy_exec = 'tidy5'
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|bower_components'
