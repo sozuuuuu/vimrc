@@ -81,7 +81,7 @@ endif
 let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 
 set t_Co=256
-colorscheme pyte
+colorscheme zellner
 set background=light
 let g:NERDTreeWinPos = "left"
 set clipboard=unnamed
