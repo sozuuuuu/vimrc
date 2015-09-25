@@ -81,7 +81,7 @@ endif
 let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 
 set t_Co=256
-colorscheme zellner
+colorscheme pyte
 set background=light
 let g:NERDTreeWinPos = "left"
 set clipboard=unnamed
@@ -99,3 +99,7 @@ set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|bower_components'
 
 set foldlevel=5
+
+" Instant markdown
+let g:instant_markdown_slow = 1
+let g:instant_markdown_autostart = 0
