@@ -99,6 +99,7 @@ set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|bower_components'
 
 set foldlevel=5
+let b:javascript_fold=5
 
 " Instant markdown
 let g:instant_markdown_slow = 1
