@@ -36,3 +36,6 @@
 [submodule "sources_non_forked/vim-instant-markdown"]
 	path = sources_non_forked/vim-instant-markdown
 	url = https://github.com/suan/vim-instant-markdown
+[submodule "sources_non_forked/vim-rubocop"]
+	path = sources_non_forked/vim-rubocop
+	url = https://github.com/ngmy/vim-rubocop
