@@ -93,13 +93,15 @@ set shiftwidth=2
 set expandtab
 
 let g:syntastic_html_tidy_exec = 'tidy5'
+" let g:syntastic_ruby_checkers = ['rubocop']
+let g:syntastic_scss_checkers = ['scss_lint']
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|bower_components'
 
-set foldlevel=5
-let b:javascript_fold=5
+set foldlevel=100
+let b:javascript_fold=100
 
 " Instant markdown
 let g:instant_markdown_slow = 1
