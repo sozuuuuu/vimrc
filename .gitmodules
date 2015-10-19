@@ -39,3 +39,6 @@
 [submodule "sources_non_forked/vim-rubocop"]
 	path = sources_non_forked/vim-rubocop
 	url = https://github.com/ngmy/vim-rubocop
+[submodule "sources_non_forked/jshint.vim"]
+	path = sources_non_forked/jshint.vim
+	url = git@github.com:wookiehangover/jshint.vim.git
