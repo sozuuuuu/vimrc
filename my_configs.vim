@@ -94,6 +94,7 @@ set background=light
 let g:NERDTreeWinPos = "left"
 set clipboard=unnamed
 set number
+runtime macros/matchit.vim
 
 set foldmethod=syntax
 " change foldmethod to manual when insert mode
