@@ -1,3 +1,6 @@
+"
+" neocomplete settings
+
 "Note: This option must set it in .vimrc(_vimrc).  NOT IN .gvimrc(_gvimrc)!
 " Disable AutoComplPop.
 let g:acp_enableAtStartup = 0
@@ -80,12 +83,31 @@ endif
 " https://github.com/c9s/perlomni.vim
 let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 
+"
+" common settings
+
+" colors
 set t_Co=256
 colorscheme pyte
 set background=light
+
 let g:NERDTreeWinPos = "left"
 set clipboard=unnamed
 set number
+
+set foldmethod=syntax
+" change foldmethod to manual when insert mode
+" neocomplete becomes heavy with foldmethod=syntax, expr
+autocmd InsertEnter * if !exists('w:last_fdm')
+            \| let w:last_fdm=&foldmethod
+            \| setlocal foldmethod=manual
+            \| endif
+autocmd InsertLeave,WinLeave * if exists('w:last_fdm')
+            \| let &l:foldmethod=w:last_fdm
+            \| unlet w:last_fdm
+            \| endif
+set foldlevelstart=20
+
 " indentation
 set autoindent
 set tabstop=2
@@ -93,15 +115,13 @@ set shiftwidth=2
 set expandtab
 
 let g:syntastic_html_tidy_exec = 'tidy5'
-"let g:syntastic_ruby_checkers = ['rubocop']
+"let g:syntastic_ruby_checkers = ['rubocop'] *version incompatibility
 let g:syntastic_scss_checkers = ['scss_lint']
 
+" ctrlp
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|bower_components\|vendor'
-
-set foldlevel=100
-let b:javascript_fold=100
 
 " Instant markdown
 let g:instant_markdown_slow = 1
