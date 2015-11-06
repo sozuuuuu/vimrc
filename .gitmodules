@@ -49,3 +49,7 @@
 [submodule "sources_non_forked/vim-coffee-script"]
 	path = sources_non_forked/vim-coffee-script
 	url = git@github.com:kchmck/vim-coffee-script.git
+
+[submodule "sources_non_forked/unite.vim"]
+	path = sources_non_forked/unite.vim
+	url = git@github.com:Shougo/unite.vim.git
