@@ -116,7 +116,8 @@ set shiftwidth=2
 set expandtab
 
 let g:syntastic_html_tidy_exec = 'tidy5'
-"let g:syntastic_ruby_checkers = ['rubocop'] *version incompatibility
+let g:syntastic_ruby_checkers = ['rubocop']
+let g:syntastic_ruby_rubocop_exec = '/Users/korin/.vim_runtime/helpers/rubocop.sh'
 let g:syntastic_scss_checkers = ['scss_lint']
 
 " ctrlp
