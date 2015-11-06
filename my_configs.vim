@@ -107,6 +107,7 @@ autocmd InsertLeave,WinLeave * if exists('w:last_fdm')
             \| let &l:foldmethod=w:last_fdm
             \| unlet w:last_fdm
             \| endif
+set foldlevel=20
 set foldlevelstart=20
 
 " indentation
