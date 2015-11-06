@@ -57,3 +57,6 @@
 [submodule "sources_non_forked/vimproc.vim"]
 	path = sources_non_forked/vimproc.vim
 	url = git@github.com:Shougo/vimproc.vim.git
+[submodule "sources_non_forked/vim-bookmarks"]
+	path = sources_non_forked/vim-bookmarks
+	url = git@github.com:MattesGroeger/vim-bookmarks.git

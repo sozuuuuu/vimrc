@@ -129,3 +129,10 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|bower_components\|vend
 " Instant markdown
 let g:instant_markdown_slow = 1
 let g:instant_markdown_autostart = 0
+
+" vim-bookmarks
+highlight BookmarkSign ctermbg=NONE ctermfg=160
+highlight BookmarkLine ctermbg=194 ctermfg=NONE
+let g:bookmark_sign = '♥'
+let g:bookmark_highlight_lines = 1
+let g:bookmark_save_per_working_dir = 1
